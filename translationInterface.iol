@@ -1,7 +1,3 @@
-type TranslationRequest:void {
-  .from:string
-}
-
 interface TranslationInterface {
-  RequestResponse: translate(TranslationRequest)(string)
+  RequestResponse: translate(string)(string)
 }
